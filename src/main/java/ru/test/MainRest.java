@@ -5,8 +5,9 @@ import javax.ws.rs.GET;
 import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
+import ru.test.service.PeopleService;
 
-@Path(value = "people")
+@Path(value = "/people")
 public class MainRest {
 
     @Inject
